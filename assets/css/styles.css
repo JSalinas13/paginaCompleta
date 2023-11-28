@@ -1,0 +1,77 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+h4 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.tarjeta-equipos {
+    padding: 15px;
+}
+
+.carousel a {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.card-title-equipos h4 {
+    margin-top: 25px;
+    font-size: 65px;
+}
+
+.card-btn a {
+    font-family: 'Alfa Slab One', cursive;
+    background: #000;
+    font-size: 15px;
+    color: #FFF;
+    padding: 13px 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    align-content: center;
+}
+
+.card-btn a:hover {
+    background-color: #ed591d;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.card-btn a {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+
+.card-btn a {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.card-btn a:hover {
+    font-weight: bold;
+    transition: all .5s ease 0s;
+}
+
+.btn-nuevo-usuario {
+    background-color: #ed591d;
+    color: white;
+}
+
+.btn-nuevo-usuario:hover {
+    background-color: white;
+    border-color: #ed591d;
+    color: #000;
+    transition: all .5s ease 0s;
+}
+
+
+.texto-limitado {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    /* Ajusta el ancho máximo según tu diseño */
+}
